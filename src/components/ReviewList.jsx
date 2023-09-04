@@ -1,5 +1,9 @@
 import Rate from '../assets/images/5star.svg'
 import { Card } from 'flowbite-react'
+import Img1 from '../assets/images/review/R1.png'
+import Img2 from '../assets/images/review/R2.png'
+import Img3 from '../assets/images/review/R3.png'
+import Img4 from '../assets/images/review/R4.png'
 
 
 export default function ReviewList() {
@@ -8,25 +12,26 @@ export default function ReviewList() {
             name: 'albus dumbledore',
             comment: 'Buyer buzz partner network disruptive non-disclosure agreement business',
             role: 'Manager @ Howarts',
-            img: "src/assets/images/review/R1.png"
+            img: [Img1]
         },
         {
             name: 'albus dumbledore',
             comment: 'Buyer buzz partner network disruptive non-disclosure agreement business',
             role: 'Manager @ Howarts',
-            img: 'src/assets/images/review/R2.png'
+            img: [Img2]
+            // img: 'src/assets/images/review/R2.png'
         },
         {
             name: 'albus dumbledore',
             comment: 'Buyer buzz partner network disruptive non-disclosure agreement business',
             role: 'Manager @ Howarts',
-            img: 'src/assets/images/review/R3.png'
+            img: [Img3]
         },
         {
             name: 'albus dumbledore',
             comment: 'Buyer buzz partner network disruptive non-disclosure agreement business',
             role: 'Manager @ Howarts',
-            img: 'src/assets/images/review/R4.png'
+            img: [Img4]
         }
     ]
   return (
