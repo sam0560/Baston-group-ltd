@@ -16,7 +16,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 ## About
-Baston was build on a based on figma design to serve as a Building advisory website.
+Baston was developed based on figma design to serve as a Building advisory website.
 
 ## Technologies Used
 - React js
