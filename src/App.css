@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  /* overflow-x: hidden; */
+}
+img{
+  max-width: 100%;
+}
+.myBg{
+  background-image: url('assets/images/hero_img.png');
+}
+.customImg{
+  background: #005598;
+  background-image: url('assets/images/callToAction.png');
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
