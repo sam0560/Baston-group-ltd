@@ -19,7 +19,6 @@ export default function ReviewList() {
             comment: 'Buyer buzz partner network disruptive non-disclosure agreement business',
             role: 'Manager @ Howarts',
             img: [Img2]
-            // img: 'src/assets/images/review/R2.png'
         },
         {
             name: 'albus dumbledore',

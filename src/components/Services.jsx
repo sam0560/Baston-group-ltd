@@ -1,6 +1,8 @@
 import { Button, Card } from 'flowbite-react'
-import Img from '../assets/images/services/engineering.png'
-import Img2 from '../assets/images/building1.jpg'
+import Img1 from '../assets/images/services/architecture.png'
+import Img2 from '../assets/images/services/engineering.png'
+import Img3 from '../assets/images/services/construction.png'
+import Img4 from '../assets/images/services/design.png'
 
 
 export default function Services() {
@@ -8,25 +10,25 @@ export default function Services() {
         {
             service: 'architecture',
             brief: 'Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor',
-            img: "src/assets/images/services/architecture.png",
+            img: [Img1],
             href: '#',
         },
         {
             service: 'engineering',
             brief: 'Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor',
-            img: 'src/assets/images/services/engineering.png',
+            img: [Img2],
             href: '#',
         },
         {
             service: 'construction',
             brief: 'Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor',
-            img: 'src/assets/images/services/construction.png',
+            img: [Img3],
             href: '#',
         },
         {
             service: 'design & building',
             brief: 'Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor',
-            img: 'src/assets/images/services/design.png',
+            img: [Img4],
             href: '#',
         }
     ]
