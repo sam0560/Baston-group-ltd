@@ -1,8 +1,28 @@
-# React + Vite
+# Baston Group Ltd
+https://bation.netlify.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+First, run the development server:
 
-Currently, two official plugins are available:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+
+## About
+Baston was developed based on figma design to serve as a Building advisory website.
+
+## Technologies Used
+- React js
+- TailwindCss
+- Flowbite Ui
+- Figma
+
+## Image
+![mobile](https://github.com/sam0560/Baston-group-ltd/assets/64938042/8d8023c2-431e-4229-b5d5-4e2c8160e72a)
